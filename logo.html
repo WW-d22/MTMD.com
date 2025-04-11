@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>منصة تطوير المهارات الإدارية</title>
+  <meta http-equiv="refresh" content="4;url=intro.html">
+  <style>
+    body {
+      background-color: #f9f9f9;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .logo-animation {
+      animation: slideDown 1.5s ease-out forwards, pulse 2s ease-in-out infinite;
+      opacity: 0;
+      width: 200px;
+      display: block;
+      margin: 30vh auto 10px;
+    }
+
+    @keyframes slideDown {
+      0% {
+        transform: translateY(-100px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.jpeg" alt="شعار الموقع" class="logo-animation">
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مقدمة المنصة</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .intro {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+      padding: 100px 20px 20px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .buttons a {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin: 0 10px;
+      display: inline-block;
+    }
+
+    .buttons a.secondary {
+      background-color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <p class="intro">
+    مرحباً بك في منصة <strong>تطوير المهارات الإدارية</strong>، حيث نساعدك على تنمية قدراتك في القيادة، التخطيط، والتنظيم من خلال محتوى تدريبي وإنساني يربط بين المتخصصين والمحتاجين للتطوير.
+  </p>
+
+  <div class="buttons">
+    <a href="#courses">ابدأ الآن</a>
+    <a href="#about" class="secondary">عن المنصة</a>
+  </div>
+</body>
+</html>
